@@ -13,6 +13,12 @@ def get_text(img_text):
     final_text+= text
   return final_text
 
+st.set_page_config(
+     page_title="Invoice Parser",
+     page_icon="🧊",
+     layout="wide",
+     initial_sidebar_state="expanded",
+ )
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
